@@ -1,3 +1,2 @@
-module github.com/antonbeckmann/go-common-module
-
+module github.com/antonbeckmann/go-common
 go 1.17
