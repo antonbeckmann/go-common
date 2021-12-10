@@ -15,6 +15,7 @@ type Device struct {
 	IP          string     `json:"ip"`
 	STATE       string     `json:"state"`
 	SCHEDULES   []Schedule `json:"schedules"`
+	ONLINE      bool       `json:"online"`
 }
 
 type Devices struct {
